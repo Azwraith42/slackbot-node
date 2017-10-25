@@ -1,0 +1,15 @@
+{
+  "name": "deploy-bot-node",
+  "version": "1.0.0",
+  "description": "nodejs deploybot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "node ./app.js"
+  },
+  "author": "Alec",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.14.1"
+  }
+}
